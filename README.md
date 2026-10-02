@@ -394,28 +394,6 @@ Several measures are included to keep the evaluation reproducible and methodolog
 - preprocessing pipeline persisted together with the trained model;
 - identical test samples used for neural-network and classical baselines.
 
-## Improvements over the original exploratory analysis
-
-The initial notebook was useful for experimentation. The repository version improves it by:
-
-- removing Google Colab and Google Drive dependencies;
-- replacing notebook execution order with modular Python code;
-- removing hard-coded input dimensionality;
-- separating training, validation, testing and inference;
-- adding median imputation and standardized features;
-- avoiding preprocessing leakage;
-- correcting BCE test-loss evaluation;
-- correcting confusion-matrix class ordering;
-- adding reproducible random seeds;
-- adding early stopping;
-- adding validation-only classification-threshold optimization;
-- introducing Logistic Regression and Random Forest baselines;
-- adding Optuna hyperparameter optimization;
-- adding ROC-AUC, PR-AUC, balanced accuracy, MCC and Brier score;
-- generating ROC, PR, calibration and comparison plots;
-- persisting both the trained model and preprocessing pipeline;
-- adding automated tests and GitHub Actions CI.
-
 ## Tests
 
 Run:
