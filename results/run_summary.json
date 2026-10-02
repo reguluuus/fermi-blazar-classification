@@ -1,0 +1,22 @@
+{
+  "train_samples": 1575,
+  "validation_samples": 337,
+  "test_samples": 338,
+  "bcu_samples": 1493,
+  "features": 44,
+  "device": "cuda",
+  "decision_threshold": 0.5199999999999999,
+  "class_mapping": {
+    "0": "FSRQ",
+    "1": "BLL"
+  },
+  "training_parameters": {
+    "epochs": 40,
+    "batch_size": 64,
+    "hidden_size": 224,
+    "dropout": 0.23953145446128926,
+    "learning_rate": 0.001162542086344389,
+    "patience": 8,
+    "seed": 42
+  }
+}

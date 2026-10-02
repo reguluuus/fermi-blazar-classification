@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fermi-blazar-classification"
+version = "0.1.0"
+description = "PyTorch classification of Fermi-LAT blazars into BLL and FSRQ classes."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "astropy>=6.0",
+  "joblib>=1.3",
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+  "optuna>=3.6",
+  "pandas>=2.1",
+  "scikit-learn>=1.4",
+  "torch>=2.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
