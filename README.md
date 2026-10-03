@@ -456,11 +456,3 @@ Potential future extensions include:
 This project is an independent machine-learning analysis based on publicly available Fermi-LAT catalog data.
 
 It is not affiliated with, endorsed by, or an official product of the Fermi-LAT Collaboration or NASA.
-
-## License
-
-This project is released under the MIT License.
-
-## Suggested GitHub topics
-
-`astrophysics` · `machine-learning` · `pytorch` · `fermi-lat` · `blazar` · `agn` · `binary-classification` · `optuna` · `scientific-machine-learning`
